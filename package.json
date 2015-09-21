@@ -1,0 +1,33 @@
+{
+    "name": "jChat",
+    "version": "1.0.0",
+    "description": "Simple chat with NodeJs and Socketio",
+    "keywords": [
+        "Node.js",
+        "jChat"
+    ],
+    "author": {
+        "name": "Andrés Cataño",
+        "email": "serdnah2@gmail.com",
+        "url": "http://wwww.innovacenter.co/"
+    },
+    "homepage": "http://wwww.innovacenter.co/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/serdnah2/chat_server"
+    },
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "socket.io": "1.0.6"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "devDependencies": {},
+    "bundleDependencies": [],
+    "private": true,
+    "main": "server.js"
+}
